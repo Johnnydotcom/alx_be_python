@@ -1,3 +1,4 @@
+Using operators
 basic_operations - script that does addition, subtraction and multiplication.
 simple_interest - script calculates simple interest.
 rectangle_area -  script that calculates the area of a rectangle.
