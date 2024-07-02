@@ -15,5 +15,5 @@ match sign:
     case "/":
         print("The result is", num1 / num2)
 
-    case_:
+    case _:
         print("Invalid operation")
