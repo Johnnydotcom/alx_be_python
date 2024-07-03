@@ -18,5 +18,5 @@ match operation:
         else :
             print(f'The result is {num1 / num2}.')
 
-    case _:
-        print("Invalid operation")
+    #case _:
+    #    print("Invalid operation")
