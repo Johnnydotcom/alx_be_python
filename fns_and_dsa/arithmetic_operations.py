@@ -1,11 +1,11 @@
 def perform_operation(num1, num2, operation):
-    if operation == "multiply":
+    if operation == "*":
         print({num1} * {num2})
-    elif operation == "add":
-        print({num1 + num2})
-    elif operation == "subtract":
+    elif operation == "+":
+        print({num1} + {num2})
+    elif operation == "-":
         print({num1} - {num2})
-    elif operation == "divide":
+    elif operation == "/":
         if num2 == 0:
             print("Not divisble by zero")
     else: 
