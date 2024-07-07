@@ -10,3 +10,4 @@ def perform_operation(num1, num2, operation):
             print("Not divisble by zero")
     else:
         print({num1 / num2})
+    return(0)
