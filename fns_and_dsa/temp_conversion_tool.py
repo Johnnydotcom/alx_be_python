@@ -1,11 +1,15 @@
+
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
+
 temp = float(input("Enter the temperature to conver: "))
-sign = float(input("Is this temperature in Celsius or Fahrenheit? (C/F): ").isupper)
-
-F = 5/9
-C = 9/5
+sign = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").islower
 def convert_to_celsius(fahrenheit):
-    cel = (F * 9/5)+ 32
+    cel = ((temp - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR)
 def convert_to_fahrenheit(celsius):
-    fah = (C * 9/5)+32 
+    fah = ((temp + 32) * CELSIUS_TO_FAHRENHEIT_FACTOR)
 
-print (f"{cel} is {fah}")
+    if sign == "c":
+         print (f"{cel} is = {fah}")
+    else:
+        print(f"{fah} is = {cel} ")
