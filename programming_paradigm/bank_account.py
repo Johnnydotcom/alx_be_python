@@ -11,7 +11,6 @@ class BankAccount:
         if amount > self.account_balance:
             return True
         else:
-            self.account_balance - amount
             return False
                     
     def display_balance(self, amount):
