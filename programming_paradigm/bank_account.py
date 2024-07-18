@@ -1,5 +1,7 @@
 class BankAccount:
     
+    #account = 0
+    
     def __init__(self, account_balance):
         self.account_balance = 0
         
@@ -10,5 +12,5 @@ class BankAccount:
     def withdraw(self, amount):
         return self.account_balance - amount
                     
-    def dislpay_balance(self, amount):
-        return()
+    def display_balance(self, amount):
+        return self.account_balance(amount)
