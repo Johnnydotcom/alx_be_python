@@ -12,4 +12,3 @@ class Book:
   
     def __repr__(self):
         f"Book('{self.title}', '{self.author}', {self.year})"
-    def main():
